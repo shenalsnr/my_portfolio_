@@ -30,9 +30,16 @@ export default function Hero() {
           <button className="bg-gradient-to-r from-blue-600 to-blue-900 text-white px-8 py-3.5 rounded-xl font-bold hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all">
             Hire Me
           </button>
-          <button className="border border-gray-600 text-white px-8 py-3.5 rounded-xl font-semibold hover:bg-white/5 transition-colors">
+          
+          {/* Download CV බොත්තම මෙහි යාවත්කාලීන කර ඇත */}
+          <a 
+            href="https://drive.google.com/file/d/1SUkxkyICUlpfYZr6KuBs-s3qawSd8NRM/view?usp=drive_link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="border border-gray-600 text-white px-8 py-3.5 rounded-xl font-semibold hover:bg-white/5 transition-colors inline-block"
+          >
             Download CV
-          </button>
+          </a>
         </div>
 
         {/* Stats Card */}
@@ -57,7 +64,6 @@ export default function Hero() {
       {/* Right Column*/}
       <div className="flex justify-center md:justify-end items-center">
         <div className="relative w-[320px] h-[460px] md:w-[400px] md:h-[560px]">
-          
           
           <div 
             className="absolute inset-0 bg-gradient-to-tr from-blue-800 to-slate-950 translate-x-2 translate-y-2 md:translate-x-3 md:translate-y-3 shadow-[0_15px_30px_rgba(0,0,0,0.6)]"
