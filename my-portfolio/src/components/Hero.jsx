@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Left Column: Text & Buttons */}
       <div className="flex flex-col z-10">
         <p className="text-gray-400 text-lg mb-2">Hi I am</p>
-        <h1 className="text-5xl md:text-6xl font-bold mb-1 leading-tight">
+        <h1 className="text-5xl md:text-6xl font-bold mb-1 leading-tight text-white/70">
           Shenal Nikeshana
         </h1>
         
