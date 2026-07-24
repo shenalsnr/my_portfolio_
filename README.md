@@ -16,7 +16,6 @@ A modern, responsive, and fully customizable personal portfolio website built to
   * **Skills:** Categorized display of my technical stack.
   * **Projects:** Showcase of recent academic and professional projects.
   * **Contact:** Contact details and social media links.
-* **Admin Panel (UI):** A built-in admin dashboard template for future backend integration to update CV links, stats, and projects dynamically.
 
 ## 🛠️ Tech Stack
 
