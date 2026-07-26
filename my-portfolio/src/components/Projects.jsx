@@ -5,8 +5,10 @@ export default function Projects() {
     {
       title: "Spice Buying and Selling Website",
       stack: "MERN Stack",
-      desc: "Developed an academic web application. Contributed to User Management module (registration, login, account management)."
+      desc: "Developed an academic web application. Contributed to User Management module (registration, login, account management).",
+      image: "/spice.png"
     },
+    
     {
       title: "Locker & Parking Management",
       stack: "MERN Stack",
@@ -16,8 +18,9 @@ export default function Projects() {
     {
       title: "Uni Facility & Asset Booking System",
       stack: "Spring Boot, React",
-      desc: "Web platform for managing university resource bookings. Contributed to Booking Management (requests, approvals, conflict prevention)."
-    }
+      desc: "Web platform for managing university resource bookings. Contributed to Booking Management (requests, approvals, conflict prevention).",
+      image: "/unip.png"
+    },
   ];
 
   return (
