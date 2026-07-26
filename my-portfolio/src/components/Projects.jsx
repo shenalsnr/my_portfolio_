@@ -8,7 +8,7 @@ export default function Projects() {
       desc: "Developed an academic web application. Contributed to User Management module (registration, login, account management).",
       image: "/spice.png"
     },
-    
+  
     {
       title: "Locker & Parking Management",
       stack: "MERN Stack",

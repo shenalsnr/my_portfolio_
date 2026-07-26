@@ -74,11 +74,11 @@ export default function Hero() {
       </div>
 
       {/* Right Column */}
-      <div className="flex justify-center md:justify-end items-center">
-        <div className="relative w-[320px] h-[460px] md:w-[400px] md:h-[560px]">
+      <div className="flex justify-end items-center">
+        <div className="relative w-[320px] h-[460px] md:w-[400px] md:h-[560px] translate-x-6 md:translate-x-12">
           
           <div 
-            className="absolute inset-0 bg-gradient-to-tr from-blue-800 to-slate-950 translate-x-2 translate-y-2 md:translate-x-3 md:translate-y-3 shadow-[0_15px_30px_rgba(0,0,0,0.6)]"
+            className="absolute top-4 md:top-6 bottom-0 inset-x-0 bg-gradient-to-tr from-blue-800 to-slate-950 translate-x-2 translate-y-2 md:translate-x-3 md:translate-y-3 shadow-[0_15px_30px_rgba(0,0,0,0.6)]"
             style={{ clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 100%)' }}
           ></div>
 
@@ -89,7 +89,7 @@ export default function Hero() {
             <img 
               src="/img.png" 
               alt="Shenal Nikeshana" 
-              className="w-auto h-full md:h-[95%] object-cover object-bottom grayscale opacity-80 hover:opacity-100 hover:grayscale-0 transition-all duration-500 origin-bottom"
+              className="w-auto h-full md:h-[95%] object-cover object-bottom grayscale opacity-90 hover:opacity-100 hover:grayscale-0 transition-all duration-500 origin-bottom"
             />
           </div>
 
